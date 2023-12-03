@@ -1,1 +1,1 @@
-# Titanic-Survival-Classification-Data-
+# Titanic-Survival-Classification
