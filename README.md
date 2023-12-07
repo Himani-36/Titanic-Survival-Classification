@@ -1,29 +1,20 @@
 # Titanic-Survival-Classification
 
-Requirements
+**About Dataset:**
+The Titanic dataset is a widely used dataset that contains information on the passengers who were aboard the Titanic when it sank on its maiden voyage in 1912. The dataset includes features such as age, sex, passenger class, and fare paid, as well as whether or not the passenger survived the sinking. The dataset is often used for machine learning and data analysis tasks, such as predicting survival based on passenger characteristics or exploring patterns in the data.
 
-1) Python , jupyter notebook.
-2) Numpy, Pandas, seaborn and sklearn library.
+**Column Description**
+PassengerId: unique identifier for each passenger
+Survived: whether the passenger survived (1) or not (0)
+Pclass: passenger class (1 = 1st class, 2 = 2nd class, 3 = 3rd class)
+Name: name of the passenger
+Sex: gender of the passenger
+Age: age of the passenger (in years)
+SibSp: number of siblings or spouses aboard the Titanic
+Parch: number of parents or children aboard the Titanic
+Ticket: ticket number
+Fare: passenger fare
+Cabin: cabin number
+Embarked: port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
-This dataset has passenger information who boarded the Titanic along with other information like survival status, Class, Fare, and other variables. The unfortunate event which was occurred on 15 April 1912, the Titanic sank after colliding with an iceberg, aboard 2224 peoples.
-
-This project addresses the following Data Analysis topics:
-
-1) Data Exploration and Preparation
-
-2) Data Representation and Transformation
-
-3) Data Visualization and Presentation
-
-Data Exploration and Preparation Learn about data: Are there missing data? Is it categorical? if not, min , max, avg values? if yes, what are the categories? distribution of variables Duplicate entry
-
-
-Transformation on dataframe: Droping some of the columns which many not contribute much to our machine learning model such as Name, Ticket, Cabin etc
-
-Data Visualization and Presentation Age distribution per class.
-Upper-class passenger median Age - 36 years Middle-class passenger median Age - 29 years Lower- class passenger median Age - 26 years
-rest all presentation is on jupyter python file Titanic Data ML.ipynb
-
-The given dataset has entries of 891 peoples.
-
-sklearn is used for the machine learning algorithm(XG Boost) with score around 88.9%
+## This Notebook will show basic examples of:
