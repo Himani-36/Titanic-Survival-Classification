@@ -17,21 +17,21 @@ The Titanic dataset is a widely used dataset that contains information on the pa
 - Cabin: cabin number
 - Embarked: port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
-**Objective**: 
+### Objective: 
 To predict the survival of passenger from the Titanic ship, with the use of Machine Learning algorithms.
 
 **I followed the following process to analyze the data and present it:**
 
-**Step 1: Importing required libraries**
+## Step 1: Importing required libraries
 Importing all the required basics data science libraries for processing the data. In this notebook, I have imported Numpy, Pandas for processing the data and matplotlib and seaborn for visualization.
 
-**Step 2: Data Preprocessing**
+## Step 2: Data Preprocessing
 Importing the data using pandas library.
 
-**Step 3: Analyzing the data**
+## Step 3: Analyzing the data
 Before proceeding to Exploratory Data Analysis(EDA), I have analyzes the data by checking of missing values, shape of data, checking mean, median, maximum, minimum using _describe_ function.
 
-**Step 4: Exploratory Data Analysis**
+## Step 4: Exploratory Data Analysis(EDA)
 * The survival rate of titanic data is 38.4% of total data.
 * More female has survived than male. Out of 314 females 233 survived and out of 577 males only 109 survived. The survival ratio of female is more than male.
 * Economic Class affected Survival rate and Passengers travelling with First Class had higher ratio of survival about 63% as compared to Class 2 and 3.
@@ -42,19 +42,19 @@ Before proceeding to Exploratory Data Analysis(EDA), I have analyzes the data by
 * From the _Name_ feature I found that most priority has given to females(Mrs).
 * Filled the missing values for _Embarked_ i used mode to fill, for age I plotted the boxplot of pclass and age and found that people that are travelling pclass 1 tend to be richer and older(mean age is 37).
 
-**Step 5: Converting Categorical features to Ordinal**
+## Step 5: Converting Categorical features to Ordinal
 I converted features Sex and Embarked into ordinal by using map function so that extra columns does not get added.
 
-**Step 6: Dropping unwanted columns**
+## Step 6: Dropping unwanted columns
 PassengerId, Name, Cabin and Ticket I dropped from data as PassengerId was not provided any significant information and Cabin has more than 77% of missing values.
 
-**Step 7: Standarising the data**
+## Step 7: Standarising the data
 Standarize the data using StandardScaler() around mean 0.
 
-**Step 8: Train_test_split**
+## Step 8: Train_test_split
 Spliting the data into 67% training and 33% test data
 
-**Step 9: Applying ML algorithms**
+## Step 9: Applying ML algorithms
 In this python notebook, I have applied 7 ML classification algorithm on titanic
 - Logistic Regression
 - Decision Tree
@@ -64,7 +64,7 @@ In this python notebook, I have applied 7 ML classification algorithm on titanic
 - XGBoost
 - LightGBM
 
-**Step 10: Hyperparameter Tuning**
+## Step 10: Hyperparameter Tuning
 After hypertuning the models, XGBoost gave 88.9% accuracy then Gradient Boosting 88.8%.
 
 
